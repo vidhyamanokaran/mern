@@ -1,0 +1,14 @@
+.para{
+    color:#ff600a;
+    background-color: aquamarine;
+    background-image:url("https://ik.imagekit.io/1fp1io2gn/images/computer.jpg?") ;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.sp{
+    color: #ff600a;
+}
+.pp{
+    
+}
