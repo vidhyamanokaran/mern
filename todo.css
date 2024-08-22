@@ -1,0 +1,45 @@
+.background{
+    background-image:url("https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?");
+    height:500px;
+    width:365px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+
+.head{
+    color:white;
+    font-family:"Roboto",sans-serif;
+    text-align: center;
+}
+
+.paragraph{
+    color: white;
+    font-family:"Roboto",sans-serif;
+    text-align:center;
+}
+.heading{
+    color:white;
+    font-family:"Roboto",sans-serif;
+}
+.para{
+    font-family: "Roboto",sans-serif;
+    color:rgb(245, 240, 240);
+}
+.center{
+    text-align: center;
+}
+.btn{
+    font-family: "Roboto",sans-serif;
+    background-color:orange;
+    color:white;
+    text-align: center;  
+    height:30px;       
+    width:70px;      
+}
+.h{
+    font-family: "Roboto",sans-serif;
+    color: white;
+    text-decoration:underline;
+}
