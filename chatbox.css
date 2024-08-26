@@ -1,0 +1,8 @@
+.bg-img{
+    font-family:"Roboto";
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png');
+    height:580px;
+    width:400px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
