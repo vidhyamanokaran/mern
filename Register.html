@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Registration Form</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Library Registration Form</h2>
+        <form action="/submit_registration" method="post">
+            <!-- Full Name -->
+            <div class="form-group">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full_name" required>
+            </div>
+            
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <!-- Phone -->
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <!-- Date of Birth -->
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <!-- Address -->
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+            </div>
+
+            <!-- Favorite Genre -->
+            <div class="form-group">
+                <label for="genre">Favorite Genre:</label>
+                <select id="genre" name="genre" required>
+                    <option value="fiction">Fiction</option>
+                    <option value="non-fiction">Non-Fiction</option>
+                    <option value="science-fiction">Science Fiction</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="biography">Biography</option>
+                    <option value="history">History</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
